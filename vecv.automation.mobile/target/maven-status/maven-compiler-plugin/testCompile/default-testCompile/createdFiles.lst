@@ -1,0 +1,13 @@
+pageObjects/SelectCustomerPage.class
+pageObjects/LandingPage.class
+pageObjects/LoginPage.class
+pageObjects/FleetTrackingScreen$1.class
+tests/SuiteSetup.class
+pageObjects/FleetTrackingScreenV1$1.class
+tests/FleetTrackStatusTest.class
+tests/FleetTrackStatusTestV1.class
+tests/GetPage.class
+pageObjects/BasePage.class
+pageObjects/FleetTrackingScreenV1.class
+DataFactory/TrackingView.class
+pageObjects/FleetTrackingScreen.class

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+   <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+ <test name="FleetTrackStatusTest Test">
+        <parameter name="deviceName" value="Software’s iPhone"/>
+        <parameter name="platformVersion" value="15"/>
+     <parameter name="udid" value="00008030-001538A60AA1802E"/>
+<!--       <parameter name="udid" value="00008020-001D70A00E23002E"/>-->
+        <parameter name="os" value="ios"/>
+        <parameter name="simulator" value="false"/>
+        <classes>
+            <class name="tests.FleetTrackStatusTest"/>
+        </classes>
+    </test>
+
+   <!-- <test name="FleetTrackStatusTest Test">
+        <parameter name="deviceName" value="android phone"/>
+      <parameter name="platformVersion" value="11"/>
+        <parameter name="udid" value="RZ8R91CF6YE"/>
+&lt;!&ndash;        <parameter name="platformVersion" value="12"/>&ndash;&gt;
+&lt;!&ndash;        <parameter name="udid" value="RZ8T11HKZTP"/>&ndash;&gt;
+        <parameter name="os" value="android"/>
+        <parameter name="simulator" value="false"/>
+        <classes>
+            <class name="tests.FleetTrackStatusTestV1"/>
+        </classes>
+    </test>-->
+</suite>
